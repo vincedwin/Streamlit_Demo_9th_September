@@ -28,3 +28,5 @@ def generate_llama2_response(prompt_input):
                            input={"prompt": f"{string_dialogue} {prompt_input} Assistant: ",
                                   "temperature":temperature, "top_p":top_p, "max_length":max_length, "repetition_penalty":1})
     return output
+
+
