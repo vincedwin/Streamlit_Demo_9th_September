@@ -2,6 +2,8 @@ import streamlit as st
 import replicate
 import os
 
+#https://replicate.com/explore
+
 #llama2 model
 with st.sidebar:
     selected_model = st.sidebar.selectbox('Choose a Llama2 model', ['Llama2-7B', 'Llama2-13B'], key='selected_model')
